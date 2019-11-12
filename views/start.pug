@@ -1,0 +1,16 @@
+html(lang="en")
+    head
+        link(rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+        title My First Pug Form
+    body
+        div.row.justify-content-center
+            div.col-md-6
+                header.card-header
+                    a.float-right.btn.btn-outline-primary Log in
+                    h4.card-title Data
+
+                div.card-body
+                    ul 
+                        li #{fname}
+                        li #{lname}
+                        li #{password}
